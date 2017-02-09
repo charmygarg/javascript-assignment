@@ -1,0 +1,128 @@
+div.divHorizon {
+    display:flex;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+div.divTopics {
+    float: left;
+    padding: 10px 5px;
+    margin-right: 25px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 7px 4px 4px #888888;
+}
+
+div.divTopics:hover {
+    background-color: #D0D3D4;
+    color:white;
+}
+
+#time {
+    float: right;
+    margin-top: 10px;
+}
+
+#login {
+    float:left;
+}
+
+.knowMore {
+    float: right;
+}
+
+.imgClass {
+    margin-top: 9px;
+    width: 100%
+}
+
+.userLabel {
+    margin: 4px 0px 10px 0px;
+}
+
+p a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px grey;
+}
+
+p a:hover {
+    color: blue;
+}
+
+p.pAbout {
+    color: grey;
+}
+
+p.bold{
+     font-weight: bold;
+     border:1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 12px 8px 11px 8px;
+    margin: -22px 0px -1px 0px;
+    text-decoration: none;
+    float: right;
+    background-color: black;
+    height: 250%;
+    box-shadow: 2px 4px 4px #888888;
+}
+
+li a:hover {
+    background-color: #5D6D7E;
+    color: white;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: black;
+    padding: 10px;
+    margin: 4px 70px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+div.divForm {
+    border-radius: 5px;
+    width: 30%;
+    margin: 1px 0;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top:4px;
+
+}
+
+p.pFoot {
+    color: grey;
+    text-align: center;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}

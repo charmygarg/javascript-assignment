@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Knoldus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="html-css-js.css">
+    <script type="text/javascript" src="html-css-js.js"></script>
+</head>
+<body>
+
+    <div>
+        <img src="knoldus.png" alt="Knoldus Icon" width="300" height="100">
+        <h1 id="login"></h1>
+        <p id="time"></p>
+    </div>
+
+    <div class="knowMore">
+        <ul>
+            <li><a href="http://www.knoldus.com/work/services/why-knoldus-for-scala.knol">Contact</a></li>
+            <li><a href="http://www.knoldus.com/about/ctoinsights.knol">About Us</a></li>
+            <li><a href="http://www.knoldus.com/home.knol">Home</a></li>
+        </ul>
+    </div>
+
+    <img src="scala.jpg" alt="Introduction to Scala" width="1275" height="300" class="imgClass"/>
+
+    <div class="divHorizon">
+        <div class="divTopics">
+            <p><a href="https://www.playframework.com/documentation/2.5.x/Home">Play</a></p>
+            <p class="pAbout">Play is based on a lightweight, stateless, web-friendly.
+                Play provides predictable and minimal resource consumption.</p>
+            <img src="play.png" alt="Play" width="400" height="200">
+        </div>
+        <div class="divTopics">
+            <p><a href="http://akka.io/docs/">Akka</a></p>
+            <p class="pAbout">Akka is an actor-based message-driven runtime
+                elasticity and resilience on the JVM with support for both Java and Scala.</p>
+            <img src="akka2.png" alt="Akka" width="400" height="200">
+        </div>
+        <div class="divTopics">
+            <p><a href="http://docs.scala-lang.org/">Scala</a></p>
+            <p class="pAbout">Scalable Language”. This means that Scala grows with you.Scala is a
+                blend of Functional and Object-Oriented Language.</p>
+            <img src="scala-logo.png" alt="Scala" width="400" height="150">
+        </div>
+    </div>
+
+    <div class="divForm">
+        <form method = "post" name="myForm" onsubmit="validateForm()">
+            <div class="userLabel">
+                <label for="user">Username:</label>
+                <input type="text" id="user" name="Username">
+            </div>
+            <div class="userLabel">
+                <label for="pass">Password: </label>
+                <input type="password" id="pass" name="Password"><br/><br/>
+            </div>
+            <input type="submit" value="Submit" id="submitBtn">
+        </form>
+    </div>
+
+    <footer >
+        <p class="pFoot">Copyright 2015-16 © Knoldus Softwares LLP</>
+    </footer>
+
+</body>
+</html>
